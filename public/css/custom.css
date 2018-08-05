@@ -1,0 +1,73 @@
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-icon {
+    color: #F9D8F7;
+}
+
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-text {
+    color: #F9D8F7;
+}
+
+
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item>.m-menu__link .m-menu__link-text {
+    color: white;
+}
+
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item>.m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item>.m-menu__link .m-menu__link-icon {
+    color: white;
+}
+
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item>.m-menu__heading .m-menu__ver-arrow, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item>.m-menu__link .m-menu__ver-arrow {
+    color: white;
+}
+
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__heading .m-menu__ver-arrow, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__ver-arrow {
+    color: white;
+}
+
+.brand-div {
+    height: 51px;
+    width: 162px;
+    padding-top: 5%;
+}
+
+.brand-span-heading {
+    font-size: 130%;
+    color: yellow;
+    font-family: Britannic Bold;
+}
+
+.brand-2nd-div {
+    padding-top: 10%;
+    font-size: 110%;
+}
+
+.brand-2ndspan-heading {
+    font-size: 130%;
+    color: rgb(245, 150, 26);
+    font-family: Britannic Bold;
+}
+
+.iframe-size {
+    border: 0;
+    position: fixed;
+    top: 12%;
+    left: 20%;
+    right: 10%;
+    width: 80%;
+    height: 78%;
+}
+
+.iframe-spineer-size {
+    border: 0;
+    position: fixed;
+    top: 12%;
+    left: 20%;
+    right: 10%;
+    width: 79%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 30%;
+}
+
+.spinner {
+    padding: 0% 0% 0% 57% !important;
+}
