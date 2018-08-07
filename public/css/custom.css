@@ -71,3 +71,70 @@
 .spinner {
     padding: 0% 0% 0% 57% !important;
 }
+
+.background-white {
+    background-color: white;
+}
+
+.dev-background-blue {
+    background-color: #d2edf0;
+}
+
+.master-background-red {
+    background-color: #e5d4ec;
+}
+
+.yellow-saffron-body {
+    color : white !important;
+    background-color: #f0c419 !important;
+    height: 100% !important;
+    margin-bottom: -9% !important;
+}
+.yellow-saffron-footer {
+    color : white !important;
+    background-color: #f29d1f !important;
+}
+
+.purpel-saffron-body {
+    color : white !important;
+    background-color: #6051a2 !important;
+    height: 100% !important;
+    margin-bottom: -9% !important;
+}
+.purpel-saffron-footer {
+    color : white !important;
+    background-color: #422f83 !important;
+}
+
+.green-saffron-body {
+    color : white !important;
+    background-color: #5cb85c !important;
+    height: 100% !important;
+    margin-bottom: -9% !important;
+}
+.green-saffron-footer {
+    color : white !important;
+    background-color: #3fb618 !important;
+}
+
+.h-padding {
+    padding: 3%;
+}
+
+.div-side-border {
+    border-right: 5px solid white;
+}
+
+.btn-bg-color {
+    color : white;
+    background-color: rgb(148, 193, 233);
+    border-color: rgb(148, 193, 233);
+    margin-top: 5px;
+}
+
+.btn-bg-color-details {
+    color : indigo;
+    background-color: rgb(223, 238, 252);
+    border-color: rgb(223, 238, 252);
+}
+

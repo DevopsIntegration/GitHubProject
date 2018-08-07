@@ -6,43 +6,25 @@ var app = angular.module("ecommerceApp", [
 app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', '$sceProvider', function ($stateProvider, $urlRouterProvider, $locationProvider, $sceProvider) {
 
       $sceProvider.enabled(false);
-      $urlRouterProvider.otherwise('/');
+      $urlRouterProvider.otherwise('/repository');
 
       $stateProvider
-            .state('dashboard', {
-                  url: "/",
-                  templateUrl: "src/views/dashboard.html",
-                  controller: "HtmlController"
+            .state('github-repo', {
+                  url: "/repository",
+                  templateUrl: "src/views/github-repository.html",
+                  controller: "GitHubRepoController"
             })
 
-            .state('hadoop', {
-                  url: "/hadoop",
-                  templateUrl: "src/views/hadoop.html",
-                  controller: "HadoopController"
+            .state('github-users', {
+                  url: "/users",
+                  templateUrl: "src/views/github-users.html",
+                  controller: "GitHubUserController"
             })
 
-            .state('sagserver', {
-                  url: "/sag-server",
-                  templateUrl: "src/views/sagserver.html",
-                  controller: "SAGServerController"
-            })
-
-            .state('html1', {
-                  url: "/html1",
-                  templateUrl: "src/views/html1.html",
-                  controller: "HtmlController"
-            })
-
-            .state('html2', {
-                  url: "/html2",
-                  templateUrl: "src/views/html2.html",
-                  controller: "HtmlController"
-            })
-
-            .state('html3', {
-                  url: "/html3",
-                  templateUrl: "src/views/html3.html",
-                  controller: "HtmlController"
+            .state('github-indivisual-repo', {
+                  url: "/indivisual",
+                  templateUrl: "src/views/github-indivisual-repo.html",
+                  controller: "GitHubIndivisualRepoController"
             })
 
       $locationProvider.html5Mode(true);

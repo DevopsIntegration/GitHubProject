@@ -22,7 +22,6 @@
 	<link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
 
 	<link href="public/css/custom.css" rel="stylesheet" type="text/css" />
-
 	<base href="/">
 </head>
 
@@ -50,15 +49,16 @@
 			<!-- content of html -->
 			<div class="m-grid__item m-grid__item--fluid m-wrapper">
 				<div class="m-content">
-					<div class="m-portlet m-portlet--space">
+					<ui-view></ui-view>
+					<!-- <div class="m-portlet m-portlet--space">
 						<div class="m-portlet__head">
 							<div class="m-portlet__head-caption">
 								<div class="m-portlet__head-title">
-									<ui-view></ui-view>
+									
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<!-- end of content html -->
@@ -79,14 +79,17 @@
 	<script src="./public/lib/angular-ui-router.min.js" type="text/javascript"></script>
 	<script src="./public/lib/ui-bootstrap-tpls-0.11.0.js"></script>
 	<script src="./public/lib/sweetalert.min.js"></script>
-
 	<script src="./public/lib/lodash.js"></script>
-
+	<script src="./public/lib/moment.min.js"></script>
 
 	<script src="app.js"></script>
-	<script src="src/controllers/HtmlController.js"></script>
-	<script src="src/controllers/SAGServerController.js"></script>
-	<script src="src/controllers/HadoopController.js"></script>
+	<script src="src/controllers/GitHubRepoController.js"></script>
+	<script src="src/controllers/GitHubUserController.js"></script>
+	<script src="src/controllers/GitHubIndivisualRepoController.js"></script>
+
+	<script src="src/Constant.js"></script>
+
+	<script src="src/services/GitHubService.js"></script>
 
 	<script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
 	<script src="assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
